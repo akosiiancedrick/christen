@@ -1,0 +1,16 @@
+html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: #d3dae8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  iframe {
+    width: 900px;
+    height: 800px;
+    border: none;
+    /* Optional: zoom in to crop unwanted parts */
+    transform: scale(1.1);
+    transform-origin: top center;
+  }
